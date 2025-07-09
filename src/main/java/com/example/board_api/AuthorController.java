@@ -8,9 +8,9 @@ import java.util.List;
 @Controller
 public class AuthorController {
     AuthorController(){
-        Author.authors.add(new Author("김선국1", "kim1@naver.com", "password1"));
-        Author.authors.add(new Author("김선국2", "kim2@naver.com", "password1"));
-        Author.authors.add(new Author("김선국3", "kim3@naver.com", "password1"));
+        Author.authors.add(new Author("한솥", "hansot@naver.com", "password1"));
+        Author.authors.add(new Author("봉구스", "bong@naver.com", "password1"));
+        Author.authors.add(new Author("이삭", "issac@naver.com", "password1"));
     }
     @PostMapping("/author/register1")
     @ResponseBody
